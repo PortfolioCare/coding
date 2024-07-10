@@ -9,6 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "java", link: "/java" },
+      { text: "redis", link: "/redis" },
       { text: "Examples", link: "/markdown-examples" },
     ],
 
@@ -26,6 +27,12 @@ export default defineConfig({
         {
           text: "java",
           items: [{ link: "/java/index.md" }, { link: "/api-examples" }],
+        },
+      ],
+      "/redis/": [
+        {
+          text: "redis",
+          items: [{ link: "/redis/index.md" }, { link: "/api-examples" }],
         },
       ],
     },
