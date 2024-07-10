@@ -32,7 +32,7 @@ export default defineConfig({
       "/redis/": [
         {
           text: "redis",
-          items: [{ link: "/redis/index.md" }, { link: "/api-examples" }],
+          items: ["/redis/index.md"],
         },
       ],
     },
