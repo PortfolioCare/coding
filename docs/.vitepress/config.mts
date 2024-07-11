@@ -29,7 +29,10 @@ export default defineConfig({
       "/java/": [
         {
           text: "java",
-          items: [{ link: "/java/index.md" }, { link: "/api-examples" }],
+          items: [
+            { text: "简介", link: "/java/index.md" },
+            { text: "java虚拟机8-11双版本", link: "/java/1.md" },
+          ],
         },
       ],
       "/redis/": [
