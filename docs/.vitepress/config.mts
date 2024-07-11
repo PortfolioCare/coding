@@ -6,6 +6,9 @@ export default defineConfig({
   base: "/coding",
   description: "coding",
   themeConfig: {
+    search: {
+      provider: "local",
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "java", link: "/java" },
