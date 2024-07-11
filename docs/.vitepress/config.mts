@@ -28,7 +28,7 @@ export default defineConfig({
       ],
       "/java/": [
         {
-          text: "java",
+          // text: "java",
           items: [
             { text: "简介", link: "/java/index.md" },
             { text: "java虚拟机8-11双版本", link: "/java/1.md" },
