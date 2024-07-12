@@ -6,6 +6,12 @@ export default defineConfig({
   base: "/coding",
   description: "coding",
   lastUpdated: true,
+  markdown: {
+    image: {
+      // 默认禁用图片懒加载
+      lazyLoading: true,
+    },
+  },
   themeConfig: {
     search: {
       provider: "local",
