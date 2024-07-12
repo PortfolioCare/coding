@@ -5,6 +5,7 @@ export default defineConfig({
   title: "coding",
   base: "/coding",
   description: "coding",
+  lastUpdated: true,
   themeConfig: {
     search: {
       provider: "local",
