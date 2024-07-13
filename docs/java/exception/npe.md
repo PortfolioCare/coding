@@ -3,6 +3,7 @@ title: Java空指针NullPointerException的传说
 shortTitle: 空指针的传说
 category:
   - Java核心
+outline: deep
 tag:
   - 异常处理
 description: 本文详细解析了Java编程中的空指针异常（NullPointerException）现象，从产生原因、常见场景到预防方法，为您揭开NullPointerException的神秘面纱。文章还提供了实际代码示例，帮助您理解如何在实际开发中避免空指针异常，提高代码的健壮性和可靠性。

@@ -3,6 +3,7 @@ title: 一文彻底搞懂Java异常处理，YYDS
 shortTitle: Java异常处理全面解析
 category:
   - Java核心
+outline: deep
 tag:
   - 异常处理
 description: 本文详细介绍了Java异常处理的基本概念、种类和原则，以及如何使用try-catch-finally和throw、throws关键字进行异常处理。通过实际案例和代码示例，帮助读者掌握Java异常处理的关键技巧，提高编程中的错误检测与处理能力。

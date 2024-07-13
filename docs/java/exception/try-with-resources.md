@@ -3,6 +3,7 @@ title: 深入理解 Java 中的 try with resources
 shortTitle: try-with-resources
 category:
   - Java核心
+outline: deep
 tag:
   - 异常处理
 description: 本文详细介绍了 Java 中 try-with-resources 语句的作用和用法，阐述了其如何优雅地处理资源的关闭与异常处理。同时，文章还提供了 try-with-resources 的实际应用示例和与传统 try-catch-finally 的对比分析。阅读本文，将帮助您更深入地了解 Java 中的 try-with-resources 语句，有效提升资源管理的编程技巧。
