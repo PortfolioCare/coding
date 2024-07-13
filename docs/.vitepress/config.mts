@@ -52,7 +52,7 @@ export default defineConfig({
       "/git/": [
         {
           items: [
-            { text: "Markdown Examples", link: "/git/git-qiyuan.md" },
+            { text: "Git教程", link: "/git/git-qiyuan.md" },
             { text: "Runtime API Examples", link: "/api-examples" },
           ],
         },
