@@ -10,6 +10,7 @@ head:
   - - meta
     - name: keywords
       content: 辅助工具,GitHub,Windows choco,chocolatey 教程
+outline: deep
 ---
 
 小二是公司新来的实习生，之前面试的过程中对答如流，所以我非常看好他。第一天，我给他了一台新电脑，要他先在本地搭建个 Java 开发环境。

@@ -3,6 +3,7 @@ category:
   - Java企业级开发
 tag:
   - 辅助工具/轮子
+outline: deep
 ---
 
 # 其他辅助工具/轮子

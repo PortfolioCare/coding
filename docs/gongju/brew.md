@@ -10,6 +10,7 @@ head:
   - - meta
     - name: keywords
       content: 辅助工具,GitHub,macos Homebrew,Homebrew教程,Homebrew镜像,Homebrew国内安装
+outline: deep
 ---
 
 ## 前言（废话）

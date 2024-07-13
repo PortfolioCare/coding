@@ -1,5 +1,6 @@
 ---
 title: Git教程
+outline: deep
 category:
   - 开发/构建工具
 ---
@@ -43,7 +44,7 @@ Junio Hamano 觉得 Linus 设计的这些命令对于普通用户不太友好，
 
 如今，Git 已经成为全球软件开发者的标配。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/git/git-qiyuan-02.png)
+![alt text](assets/image-1.png)
 
 原本的 Git 只适用于 Unix/Linux 平台，但随着 Cygwin、msysGit 环境的成熟，以及 TortoiseGit 这样易用的GUI工具，Git 在 Windows 平台下也逐渐成熟。
 
@@ -53,7 +54,7 @@ Junio Hamano 觉得 Linus 设计的这些命令对于普通用户不太友好，
 
 Git 和传统的版本控制工具 CVS、SVN 有不小的区别，前者关心的是文件的整体性是否发生了改变，后两者更关心文件内容上的差异。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/git/git-qiyuan-03.png)
+![alt text](assets/image-2.png)
 
 除此之外，Git 更像是一个文件系统，每个使用它的主机都可以作为版本库，并且不依赖于远程仓库而离线工作。开发者在本地就有历史版本的副本，因此就不用再被远程仓库的网络传输而束缚。
 
@@ -75,7 +76,7 @@ Git 中的绝大多数操作都只需要访问本地文件和资源，一般不�
 
 Git 的工作流程是这样的：
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/git/git-qiyuan-04.png)
+![alt text](assets/image-3.png)
 
 - 在工作目录中修改文件
 - 暂存文件，将文件的快照放入暂存区域
@@ -87,11 +88,11 @@ Git 的工作流程是这样的：
 
 ><https://git-scm.com/downloads>
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/git/git-qiyuan-05.png)
+![alt text](assets/image-4.png)
 
-我个人使用的 macOS 系统，可以直接使用 `brew install git` 命令安装，非常方便。
+macOS 系统，可以直接使用 `brew install git` 命令安装，非常方便。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/git/git-qiyuan-06.png)
+![alt text](assets/image-5.png)
 
 安装成功后，再使用 `git --version` 就可以查看版本号了，我本机上安装的是 2.23.0 版本。
 

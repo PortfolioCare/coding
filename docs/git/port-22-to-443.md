@@ -10,6 +10,7 @@ head:
   - - meta
     - name: keywords
       content: Java,Java SE,Java基础,Java教程,二哥的Java进阶之路,Java进阶之路,Git入门,Git教程,git,git教程,git远程仓库,端口切换
+outline: deep
 ---
 
 2024年01月16日，这天要更新《[二哥的 Java 进阶之路](https://javabetter.cn/)》，远程连接到服务器上后，执行 `git pull` 命令，结果报错：

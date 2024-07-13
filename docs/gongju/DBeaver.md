@@ -10,6 +10,7 @@ head:
   - - meta
     - name: keywords
       content: 辅助工具,GitHub,DBeaver教程,DBeaver使用,DBeaver开源,Navicat DBeaver,Java企业级开发
+outline: deep
 ---
 
 
