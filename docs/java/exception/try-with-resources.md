@@ -13,7 +13,7 @@ head:
       content: Java,Java SE,Java基础,Java教程,二哥的Java进阶之路,Java进阶之路,Java入门,教程,java,try-with-resources,java try-with-resources,java try with resources
 ---
 
-# 8.2 try-with-resources
+## 8.2 try-with-resources
 
 “二哥，终于等到你讲 try-with-resources 了！”三妹夸张的表情让我有些吃惊。
 
@@ -91,8 +91,8 @@ public class TryfinallyCustomReadLineThrow {
 
 ```
 Exception in thread "main" java.lang.Exception: close
-	at com.cmower.dzone.trycatchfinally.MyfinallyOutThrow.close(TryfinallyCustomOutThrow.java:17)
-	at com.cmower.dzone.trycatchfinally.TryfinallyCustomOutThrow.main(TryfinallyCustomOutThrow.java:10)
+ at com.cmower.dzone.trycatchfinally.MyfinallyOutThrow.close(TryfinallyCustomOutThrow.java:17)
+ at com.cmower.dzone.trycatchfinally.TryfinallyCustomOutThrow.main(TryfinallyCustomOutThrow.java:10)
 ```
 
 “看出来问题了吗，三妹？”
@@ -251,7 +251,7 @@ public class TrywithresourcesCustomOut {
 }
 ```
 
-“这次，`catch` 块主动调用了 `resource.close()`，并且有一段很关键的代码 ` var5.addSuppressed(var4)`。”
+“这次，`catch` 块主动调用了 `resource.close()`，并且有一段很关键的代码 `var5.addSuppressed(var4)`。”
 
 “这是为了什么呢？”三妹问。
 
@@ -290,11 +290,11 @@ public class TrywithresourcesCustomOutThrow {
 
 ```
 java.lang.Exception: out()
-	at com.cmower.dzone.trycatchfinally.MyResourceOutThrow.out(TrywithresourcesCustomOutThrow.java:20)
-	at com.cmower.dzone.trycatchfinally.TrywithresourcesCustomOutThrow.main(TrywithresourcesCustomOutThrow.java:6)
-	Suppressed: java.lang.Exception: close()
-		at com.cmower.dzone.trycatchfinally.MyResourceOutThrow.close(TrywithresourcesCustomOutThrow.java:16)
-		at com.cmower.dzone.trycatchfinally.TrywithresourcesCustomOutThrow.main(TrywithresourcesCustomOutThrow.java:5)
+ at com.cmower.dzone.trycatchfinally.MyResourceOutThrow.out(TrywithresourcesCustomOutThrow.java:20)
+ at com.cmower.dzone.trycatchfinally.TrywithresourcesCustomOutThrow.main(TrywithresourcesCustomOutThrow.java:6)
+ Suppressed: java.lang.Exception: close()
+  at com.cmower.dzone.trycatchfinally.MyResourceOutThrow.close(TrywithresourcesCustomOutThrow.java:16)
+  at com.cmower.dzone.trycatchfinally.TrywithresourcesCustomOutThrow.main(TrywithresourcesCustomOutThrow.java:5)
 ```
 
 “瞧，这次不会了，`out()` 的异常堆栈信息打印出来了，并且 `close()` 方法的堆栈信息上加了一个关键字 `Suppressed`，一目了然。”
@@ -307,9 +307,6 @@ java.lang.Exception: out()
 
 GitHub 上标星 10000+ 的开源知识库《[二哥的 Java 进阶之路](https://github.com/itwanger/toBeBetterJavaer)》第一版 PDF 终于来了！包括Java基础语法、数组&字符串、OOP、集合框架、Java IO、异常处理、Java 新特性、网络编程、NIO、并发编程、JVM等等，共计 32 万余字，500+张手绘图，可以说是通俗易懂、风趣幽默……详情戳：[太赞了，GitHub 上标星 10000+ 的 Java 教程](https://javabetter.cn/overview/)
 
-
 微信搜 **沉默王二** 或扫描下方二维码关注二哥的原创公众号沉默王二，回复 **222** 即可免费领取。
 
 ![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
-
-
