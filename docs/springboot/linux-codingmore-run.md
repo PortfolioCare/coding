@@ -198,7 +198,7 @@ admin 管理端的前端界面。在 Visual Studio Code 中，现在终端中执
 
 ![](https://cdn.tobebetterjavaer.com/codingmore/images/2022-06-108d03852e-c207-442d-9ce9-770c6a16710b.png)
 
-填写域名（编程喵的域名为 [codingmore.top](codingmore.top)），修改端口号为 8081，application.yml 文件中定义的。
+填写域名（编程喵的域名为 `codingmore.top`），修改端口号为 8081，application.yml 文件中定义的。
 
 
 ![](https://cdn.tobebetterjavaer.com/codingmore/images/2022-06-10358f631c-27c8-4460-a00e-5c17a3077f28.png)

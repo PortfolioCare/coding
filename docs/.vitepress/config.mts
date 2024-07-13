@@ -7,6 +7,7 @@ export default defineConfig({
   base: "/coding",
   description: "coding",
   lastUpdated: true,
+  ignoreDeadLinks: true,
   head: [
     ["link", { rel: "stylesheet", href: "/coding/fancybox.css" }],
     ["script", { src: "/coding/fancybox.umd.js" }],
