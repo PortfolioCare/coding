@@ -3,6 +3,7 @@ title: ArrayList和LinkedList的区别：如何选择？
 shortTitle: ArrayList和LinkedList的区别
 category:
   - Java核心
+outline: deep
 tag:
   - 集合框架（容器）
 description: 本文详细比较了 ArrayList 和 LinkedList 的特性、性能差异以及适用场景。阅读本文，您将更好地理解两者的优劣，从而在实际编程中做出更明智的集合类选择，提高程序性能。

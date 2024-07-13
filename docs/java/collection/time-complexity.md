@@ -3,6 +3,7 @@ title: 时间复杂度，评估ArrayList和LinkedList的执行效率
 shortTitle: 时间复杂度
 category:
   - Java核心
+outline: deep
 tag:
   - 集合框架（容器）
 description: 本文详细讲解了时间复杂度的概念、计算方法以及如何评估算法的性能。通过学习本文，您将更好地理解时间复杂度对程序性能的影响，从而在实际编程中做出更优的算法选择。

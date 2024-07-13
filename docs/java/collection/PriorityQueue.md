@@ -3,6 +3,7 @@ title: Java 优先级队列PriorityQueue详解：从源码分析到实践应用
 shortTitle: 优先级队列PriorityQueue详解
 category:
   - Java核心
+outline: deep
 tag:
   - 集合框架（容器）
 description: 本文详细解析了 Java 优先级队列 PriorityQueue 的实现原理、功能特点以及源码，为您提供了 PriorityQueue 的实际应用示例和性能优化建议。阅读本文，将帮助您更深入地理解 PriorityQueue 在 Java 编程中的应用，从而在实际编程中充分发挥其优势。

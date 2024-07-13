@@ -3,6 +3,7 @@ title: Apache StringUtils：专为Java字符串而生的工具类
 shortTitle: StringUtils工具类
 category:
   - Java核心
+outline: deep
 tag:
   - 常用工具类
 description: 本文详细介绍了Apache StringUtils工具类，深入分析了它在Java字符串操作中的实际应用和优势。通过具体的代码示例，展示了如何使用StringUtils类处理字符串的常见问题，如判断空白、连接、替换等。掌握Apache StringUtils工具类，让您在Java编程中轻松应对各种字符串操作，提高开发效率。

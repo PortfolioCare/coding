@@ -3,6 +3,7 @@ title: Java Collections：专为集合框架而生的工具类
 shortTitle: Collections工具类
 category:
   - Java核心
+outline: deep
 tag:
   - 常用工具类
 description: 本文详细介绍了Java中的Collections工具类，阐述了它在集合操作中的实际应用和优势。通过具体的代码示例，展示了如何使用Collections类处理集合的排序、查找、反转等常见问题。掌握Collections工具类的技巧，让您在Java编程中轻松应对各种集合操作，提高开发效率。

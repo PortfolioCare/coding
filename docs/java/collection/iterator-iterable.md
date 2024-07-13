@@ -3,6 +3,7 @@ title: Java迭代器Iterator和Iterable有什么区别？
 shortTitle: Iterator和Iterable的区别
 category:
   - Java核心
+outline: deep
 tag:
   - 集合框架（容器）
 description: 本文详细解析了 Java 中的迭代器 Iterator 和 Iterable 接口，阐述了它们的原理、功能及使用方法。通过学习本文，您将更好地理解如何利用 Iterator 和 Iterable 遍历集合，提高编程效率与质量。

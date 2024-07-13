@@ -3,6 +3,7 @@ title: Java Arrays：专为数组而生的工具类
 shortTitle: Arrays工具类
 category:
   - Java核心
+outline: deep
 tag:
   - 常用工具类
 description: 本文详细介绍了Java中的Arrays工具类，阐述了它在数组操作中的实际应用和优势。通过具体的代码示例，展示了如何使用Arrays类处理数组排序、查找、转换等常见问题。学习Arrays工具类的技巧，让您在Java编程中轻松应对各种数组操作，提高开发效率。

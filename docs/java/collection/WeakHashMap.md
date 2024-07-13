@@ -3,6 +3,7 @@ title: Java WeakHashMap详解（附源码分析）
 shortTitle: 详解WeakHashMap
 category:
   - Java核心
+outline: deep
 tag:
   - 集合框架（容器）
 description: 二哥的Java进阶之路，小白的零基础Java教程，Java WeakHashMap详解（附源码分析）

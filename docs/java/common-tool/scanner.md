@@ -3,6 +3,7 @@ title: Java Scanner：扫描控制台输入的工具类
 shortTitle: Scanner工具类
 category:
   - Java核心
+outline: deep
 tag:
   - 常用工具类
 description: 本文深入剖析了Java中的Scanner类，详细介绍了其用法、功能以及如何在实际应用中扫描控制台输入。通过具体代码示例，让您更好地理解Scanner的工作原理，使得控制台输入处理变得简单高效。掌握Scanner类，让Java编程更加得心应手。

@@ -3,6 +3,7 @@ title: 栈栈栈栈栈栈栈栈栈栈栈栈栈栈栈栈栈栈
 shortTitle: 栈Stack详解（附源码）
 category:
   - Java核心
+outline: deep
 tag:
   - 集合框架（容器）
 ---

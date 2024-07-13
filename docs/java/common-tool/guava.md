@@ -3,6 +3,7 @@ title: Guava：Google开源的Java工具库，太强大了
 shortTitle: Guava工具库
 category:
   - Java核心
+outline: deep
 tag:
   - 常用工具类
 description: 描述：本文详细介绍了Google开源的Java工具库Guava，阐述了它在简化Java编程中的实际应用和优势。通过具体的代码示例，展示了如何使用Guava解决字符串处理、集合操作、缓存等常见问题。学习Guava的技巧，让您在Java编程中更加轻松、高效，享受编程的乐趣。

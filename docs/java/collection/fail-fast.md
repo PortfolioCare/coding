@@ -3,6 +3,7 @@ title: 阿里Java开发规约：禁止在foreach里执行元素的删除操作
 shortTitle: Java foreach 循环陷阱
 category:
   - Java核心
+outline: deep
 tag:
   - 集合框架（容器）
 description: 本文解释了为什么在 Java foreach 循环中执行删除操作会导致问题，以及在遍历过程中如何正确地进行元素删除。阅读本文，您将避免在使用 foreach 循环时遇到的常见错误，提高编程安全性与效率。还不是因为fail-fast

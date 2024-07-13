@@ -3,6 +3,7 @@ title: Java集合框架全面解析
 shortTitle: List、Set、Queue和Map
 category:
   - Java核心
+outline: deep
 tag:
   - 集合框架（容器）
 description: 本文为您提供一个全面的 Java 集合框架概览，详细介绍了集合框架的构成、各种集合类的功能与应用场景。学习本文将帮助您更好地理解和使用 Java 集合框架，提高编程效率。

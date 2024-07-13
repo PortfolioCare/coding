@@ -3,6 +3,7 @@ title: Objects：专为操作Java对象而生的工具类
 shortTitle: Objects工具类
 category:
   - Java核心
+outline: deep
 tag:
   - 常用工具类
 description: 本文详细介绍了Java中的Objects工具类，阐述了它在处理Java对象操作中的实际应用和优势。通过具体的代码示例，展示了如何使用Objects类解决对象比较、判空、生成hashCode等常见问题。学习Objects工具类的技巧，让您在Java编程中更加高效地处理对象操作，提高开发效率。
