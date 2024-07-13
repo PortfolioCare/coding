@@ -1,6 +1,7 @@
 ---
 title: Java Comparable和Comparator的区别
 shortTitle: Comparable和Comparator
+outline: deep
 category:
   - Java核心
 tag:

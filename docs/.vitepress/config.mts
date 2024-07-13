@@ -66,7 +66,10 @@ export default defineConfig({
               items: [
                 { text: "ArrayDeque源码分析", link: "/java/collection/arraydeque.md" },
                 { text: "ArrayList源码分析", link: "/java/collection/arraylist.md" },
-                { text: "打印数组", link: "/java/array/print" },
+                {
+                  text: "Comparable和Comparator的区别",
+                  link: "/java/collection/comparable-omparator.md",
+                },
               ],
             },
           ],

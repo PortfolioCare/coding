@@ -1,6 +1,7 @@
 ---
 title: 深入探讨 Java ArrayList：从源码分析到实践应用
 shortTitle: ArrayList详解（附源码）
+outline: deep
 category:
   - Java核心
 tag:

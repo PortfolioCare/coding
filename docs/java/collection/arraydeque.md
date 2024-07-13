@@ -1,6 +1,7 @@
 ---
 title: 详解 Java 中的双端队列（ArrayDeque附源码分析）
 shortTitle: 双端队列ArrayDeque详解
+outline: deep
 category:
   - Java核心
 tag:
