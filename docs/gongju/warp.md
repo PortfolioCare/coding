@@ -6,6 +6,7 @@ category:
 tag:
   - 辅助工具
 description: Warp：一款21世纪人用的终端工具，GitHub星标2.8k+，用完爱不释手
+outline: deep
 head:
   - - meta
     - name: keywords

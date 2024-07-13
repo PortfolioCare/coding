@@ -6,6 +6,7 @@ category:
 tag:
   - 辅助工具
 description: Tabby：一款逼格更高的开源终端工具，GitHub 星标 50+k
+outline: deep
 head:
   - - meta
     - name: keywords

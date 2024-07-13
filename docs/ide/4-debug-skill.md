@@ -5,6 +5,7 @@ category:
   - 开发/构建工具
 tag:
   - IDEA
+outline: deep
 description: 几个我日常工作以及阅读源码必备的 IntelliJ IDEA 高级调试技巧，分分钟要起飞的节奏。
 head:
   - - meta

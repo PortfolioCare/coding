@@ -6,6 +6,7 @@ category:
 tag:
   - 辅助工具
 description: WindTerm：新一代开源免费的终端工具，GitHub星标6.6k+，太酷了！
+outline: deep
 head:
   - - meta
     - name: keywords

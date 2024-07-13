@@ -5,6 +5,7 @@ category:
   - 开发/构建工具
 tag:
   - IDEA
+outline: deep
 description: 在 IDEA 里下个五子棋不过分吧？
 head:
   - - meta

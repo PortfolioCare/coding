@@ -3,6 +3,7 @@ title: 40 道 Nginx 精选面试题👍
 shortTitle: 40 道 Nginx 精选面试题👍
 category:
   - 求职面试
+outline: deep
 tag:
   - 面试题&八股文
 description: 二哥的Java进阶之路，小白的零基础Java教程，40 道 Nginx 精选面试题👍

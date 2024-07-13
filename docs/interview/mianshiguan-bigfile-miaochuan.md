@@ -4,6 +4,7 @@ shortTitle: 如何秒传大文件？
 description: 携程面试官：大文件上传时如何做到秒传？
 category:
   - 求职面试
+outline: deep
 tag:
   - 面试题&八股文
 head:

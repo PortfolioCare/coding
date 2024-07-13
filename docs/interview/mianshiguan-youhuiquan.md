@@ -4,6 +4,7 @@ shortTitle: 如何设计优惠券系统？
 description: 大厂的优惠券系统是如何设计的？
 category:
   - 求职面试
+outline: deep
 tag:
   - 面试题&八股文
 head:

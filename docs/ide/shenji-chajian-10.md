@@ -5,6 +5,7 @@ category:
   - 开发/构建工具
 tag:
   - IDEA
+outline: deep
 description: 装了我这 10 个 IDEA 神级插件后，同事也开始情不自禁的嘚瑟了
 head:
   - - meta

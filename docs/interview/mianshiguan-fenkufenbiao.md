@@ -4,6 +4,7 @@ shortTitle: 为什么要分库分表？
 author: 苏三呀
 category:
   - 求职面试
+outline: deep
 tag:
   - 面试题&八股文
 head:

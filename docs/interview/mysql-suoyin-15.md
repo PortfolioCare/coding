@@ -2,6 +2,7 @@
 title: MySQL索引15连问，抗住！
 shortTitle: MySQL索引15连问，抗住！
 description: 大家好，我是田螺。金三银四很快就要来啦，准备了索引的15连问，相信大家看完肯定会有帮助的。
+outline: deep
 author: 捡田螺的小男孩
 category:
   - 微信公众号

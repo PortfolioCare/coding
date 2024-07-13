@@ -4,6 +4,7 @@ shortTitle: 40 道精选 Kafka 面试题👍
 author: 菜农
 category:
   - 求职面试
+outline: deep
 tag:
   - 面试题&八股文
 description: 二哥的Java进阶之路，小白的零基础Java教程，40 道 Kafka 精选面试题👍
