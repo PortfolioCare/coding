@@ -1,15 +1,5 @@
 ---
 title: chiner：干掉 PowerDesigner，国人开源的数据库设计工具，界面漂亮，功能强大
-shortTitle: chiner：国人开源的数据库设计工具
-category:
-  - Java企业级开发
-tag:
-  - 辅助工具
-description: chiner：干掉 PowerDesigner，国人开源的数据库设计工具，界面漂亮，功能强大
-head:
-  - - meta
-    - name: keywords
-      content: 辅助工具,GitHub,pdman chiner,PDM 工具,数据库设计,PowerDesigner chiner,Java企业级开发
 outline: deep
 ---
 
@@ -150,19 +140,11 @@ chiner 自带了几种常见的数据类型，比如字串、小数、日期等�
 
 ![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongju/chiner-24.png)
 
-## 五、尾声
-
-chiner 还有更多更强大的功能，大家觉得不错的话，可以去尝试一下。用的熟练的话，肯定能在很大程度上提高生产效率。
-
-就我个人的使用体验来说，chiner 比 PowerDesigner 更轻量级，也更符合日常的操作习惯，为国产开源点赞！
 
 项目地址：
-
 >[https://gitee.com/robergroup/chiner](https://gitee.com/robergroup/chiner)
 
 使用手册：
 
 >[https://www.yuque.com/chiner/docs/manual](https://www.yuque.com/chiner/docs/manual)
 
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)

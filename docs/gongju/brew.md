@@ -1,15 +1,4 @@
 ---
-category:
-  - Java企业级开发
-tag:
-  - 辅助工具
-title: Homebrew，GitHub 星标 32.5k+的 macOS 命令行软件管理神器，功能真心强大！
-shortTitle: Homebrew：macOS软件管理器
-description: Homebrew，GitHub 星标 32.5k+的 macOS 命令行软件管理神器，功能真心强大！
-head:
-  - - meta
-    - name: keywords
-      content: 辅助工具,GitHub,macos Homebrew,Homebrew教程,Homebrew镜像,Homebrew国内安装
 outline: deep
 ---
 

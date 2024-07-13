@@ -36,6 +36,7 @@ export default defineConfig({
       { text: "java", link: "/java" },
       { text: "redis", link: "/redis" },
       { text: "git", link: "/git/git-qiyuan.md" },
+      { text: "gongju", link: "/gongju/brew.md" },
       { text: "Examples", link: "/markdown-examples" },
     ],
 
@@ -46,6 +47,17 @@ export default defineConfig({
           items: [
             { text: "Markdown Examples", link: "/markdown-examples" },
             { text: "Runtime API Examples", link: "/api-examples" },
+          ],
+        },
+      ],
+      "/gongju/": [
+        {
+          items: [
+            { text: "brew", link: "/gongju/brew.md" },
+            { text: "multipass", link: "/gongju/multipass.md" },
+            { text: "chiner", link: "/gongju/chiner.md" },
+            { text: "choco", link: "/gongju/choco.md" },
+            { text: "DBeaver", link: "/gongju/DBeaver.md" },
           ],
         },
       ],
