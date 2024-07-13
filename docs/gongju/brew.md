@@ -274,6 +274,6 @@ brew install mongodb-community@4.4
 
 好了好了，今天这篇文章就先水到这吧，我们下期见~
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
+
 
 
