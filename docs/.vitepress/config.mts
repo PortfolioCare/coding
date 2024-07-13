@@ -53,9 +53,19 @@ export default defineConfig({
             { text: "java虚拟机8-11双版本", link: "/java/1.md" },
             {
               text: "数组",
+              collapsed: true,
               items: [
                 { text: "一维数组", link: "/java/array/array.md" },
                 { text: "二维数组", link: "/java/array/double-array.md" },
+                { text: "打印数组", link: "/java/array/print" },
+              ],
+            },
+            {
+              text: "集合",
+              collapsed: true,
+              items: [
+                { text: "ArrayDeque源码分析", link: "/java/collection/arraydeque.md" },
+                { text: "ArrayList源码分析", link: "/java/collection/arraylist.md" },
                 { text: "打印数组", link: "/java/array/print" },
               ],
             },
