@@ -8,6 +8,7 @@ export default defineConfig({
   description: "coding",
   lastUpdated: true,
   ignoreDeadLinks: true,
+  metaChunk: true,
   head: [
     ["link", { rel: "stylesheet", href: "/coding/fancybox.css" }],
     ["script", { src: "/coding/fancybox.umd.js" }],
