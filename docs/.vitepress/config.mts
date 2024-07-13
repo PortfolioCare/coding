@@ -8,8 +8,8 @@ export default defineConfig({
   description: "coding",
   lastUpdated: true,
   head: [
-    ["link", { rel: "stylesheet", href: "/coding/jsdelivr/fancybox.css" }],
-    ["script", { src: "/coding/jsdelivr/fancybox.umd.js" }],
+    ["link", { rel: "stylesheet", href: "/coding/fancybox.css" }],
+    ["script", { src: "/coding/fancybox.umd.js" }],
   ],
   markdown: {
     image: {
@@ -58,11 +58,6 @@ export default defineConfig({
         {
           text: "redis",
           items: [{ link: "/redis/index.md" }, { link: "/api-examples" }],
-        },
-      ],
-      "/jsdelivr/": [
-        {
-          items: [{ link: "/jsdelivr/fancybox.css" }, { link: "/jsdelivr/fancybox.umd.js" }],
         },
       ],
     },
