@@ -63,9 +63,9 @@ public class User {
 
 这里使用了 lombok 的
 
-*   [@Data](/Data ) 注解自动生成 getter/setter
-*   [@Builder](/Builder ) 生成链式调用
-*   由于 @Data和[@Builder](/Builder ) 配合使用的时候会导致无参构造方法丢失，所以我们主动声明了无参构造方法，并使用 `@Tolerate` 注解来告诉 lombok 请允许我们的无参构造方法存在（没有无参构造方法的时候会导致 ORM 映射出错）
+*   `@Data` 注解自动生成 getter/setter
+*   `@Builder` 生成链式调用
+*   由于 @Data和`@Builder` 配合使用的时候会导致无参构造方法丢失，所以我们主动声明了无参构造方法，并使用 `@Tolerate` 注解来告诉 lombok 请允许我们的无参构造方法存在（没有无参构造方法的时候会导致 ORM 映射出错）
 
 第五步，新建 UserMapper.java 接口：
 
@@ -88,12 +88,12 @@ public interface UserMapper {
 }
 ```
 
-*   [@Select](/Select ) 注解用来查询
-*   [@Insert](/Insert ) 注解用来插入
-*   [@Update](/Update ) 注解用来修改
-*   [@Delete](/Delete ) 注解用来删除
+*   `@Select` 注解用来查询
+*   `@Insert` 注解用来插入
+*   `@Update` 注解用来修改
+*   `@Delete` 注解用来删除
 
-第六步，在启动类 CodingmoreMybatisApplication 上添加 [@MapperScan](/MapperScan ) 注解来扫描 mapper。
+第六步，在启动类 CodingmoreMybatisApplication 上添加 `@MapperScan` 注解来扫描 mapper。
 
 ```
 @SpringBootApplication
@@ -107,7 +107,7 @@ public class CodingmoreMybatisApplication {
 }
 ```
 
-如果没有指定 [@MapperScan](/MapperScan ) 的扫描路径，将从声明该注解的类的包开始进行扫描。
+如果没有指定 `@MapperScan` 的扫描路径，将从声明该注解的类的包开始进行扫描。
 
 第七步，在测试类中对 mapper 进行测试。
 

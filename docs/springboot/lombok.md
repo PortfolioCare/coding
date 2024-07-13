@@ -396,7 +396,7 @@ public class BuilderDemo {
 }
 ```
 
-除了我上面提到的这些，Lombok 还提供了同步注解 @Synchronized、自动抛出异常注解 @SneakyThrows、不可变对象 @Value、自动生成 hashCode 和 equals 方法的注解 [@EqualsAndHashCode ](/EqualsAndHashCode ) 等等，大家可以去尝试一下，顺带看一下反编译后的字节码，体验一下 Lombok 的工作原理。 
+除了我上面提到的这些，Lombok 还提供了同步注解 @Synchronized、自动抛出异常注解 @SneakyThrows、不可变对象 @Value、自动生成 hashCode 和 equals 方法的注解 `@EqualsAndHashCode` 等等，大家可以去尝试一下，顺带看一下反编译后的字节码，体验一下 Lombok 的工作原理。 
 
 ## Lombok 的处理流程
 
