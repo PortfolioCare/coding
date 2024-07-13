@@ -9,6 +9,7 @@ export default defineConfig({
   lastUpdated: true,
   ignoreDeadLinks: true,
   metaChunk: true,
+  lang: "zh-CN",
   head: [
     ["link", { rel: "stylesheet", href: "/coding/fancybox.css" }],
     ["script", { src: "/coding/fancybox.umd.js" }],
@@ -34,6 +35,7 @@ export default defineConfig({
     nav: [
       { text: "java", link: "/java" },
       { text: "redis", link: "/redis" },
+      { text: "git", link: "/git/git-qiyuan.md" },
       { text: "Examples", link: "/markdown-examples" },
     ],
 
@@ -43,6 +45,14 @@ export default defineConfig({
           text: "Examples",
           items: [
             { text: "Markdown Examples", link: "/markdown-examples" },
+            { text: "Runtime API Examples", link: "/api-examples" },
+          ],
+        },
+      ],
+      "/git/": [
+        {
+          items: [
+            { text: "Markdown Examples", link: "/git/git-qiyuan.md" },
             { text: "Runtime API Examples", link: "/api-examples" },
           ],
         },
