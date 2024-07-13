@@ -614,7 +614,7 @@ MySQL 主备切换流程：
 - 得到id集后算出Y1、Y2、Y3对应的三个id 最后 select * from t where id in (id1, id2, id3)
   这样扫描的行数应该是C+Ymax+3
 
-```mysql
+```sql
   mysql> select count(*) into @C from t;
   set @Y1 = floor(@C * rand());
   set @Y2 = floor(@C * rand());

@@ -208,7 +208,7 @@ logger --name ROOT --level debug -c 4839ebd
 
 监控某个方法的调用次数。包括调用次数，平均RT、成功率等信息。在性能调优使用：
 
-```arduino
+```
 monitor com.XXXX.handler.HandlerManager process  -n 10  --cycle 10
 ```
  
@@ -235,7 +235,7 @@ thread -n 3|查询当前最忙的 N 个线程|
 
 watch 用来查看入参出参，配合 OGNL 条件过滤非常实用：
 
-```arduino
+```
 watch com.xxl.mq.admin.service.IXxlMqMessageService pageList '{params,returnObj,throwExp}'  -n 5  -x 4
 ```
  
@@ -244,7 +244,7 @@ watch com.xxl.mq.admin.service.IXxlMqMessageService pageList '{params,returnObj,
 
 条件判断 #cost>200(单位ms) 表示只有当耗时大于200ms才输出：
 
-```arduino
+```
 watch demo... primeFactors '{params, returnObj}' '#cost>200' -x 2
 ```
  

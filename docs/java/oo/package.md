@@ -72,7 +72,7 @@ public class Arrays {
 
 我们还需要按照包结构把上面的 Java 文件组织起来。假设以`package_sample`作为根目录，`src`作为源码目录，那么所有文件结构就是：
 
-```ascii
+```
 package_sample
 └─ src
     ├─ hong
@@ -88,7 +88,7 @@ package_sample
 
 编译后的`.class`文件也需要按照包结构存放。如果使用 IDE，把编译后的`.class`文件放到`bin`目录下，那么，编译的文件结构就是：
 
-```ascii
+```
 package_sample
 └─ bin
    ├─ hong
