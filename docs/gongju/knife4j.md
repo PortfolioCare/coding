@@ -154,7 +154,7 @@ public static BeanPostProcessor springfoxHandlerProviderBeanPostProcessor() {
 
 第五步，运行 Spring Boot 项目，浏览器地址栏输入以下地址访问 API 文档，查看效果。
 
->访问地址（和 Swagger 不同）：[http://localhost:8080/doc.html](http://localhost:8080/doc.html)
+>访问地址（和 Swagger 不同）：`http://localhost:8080/doc.html`
 
 
 ![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongju/knife4j-0a9eb2b1-bace-4f47-ace9-8a5f9f280279.png)
@@ -165,7 +165,7 @@ public static BeanPostProcessor springfoxHandlerProviderBeanPostProcessor() {
 
 ## Knife4j 的功能特点
 
-编程喵🐱实战项目中已经整合好了 Knife4j，在本地跑起来后，就可以查看所有 API 接口了。编程喵中的管理端（codingmore-admin）端口为 9002，启动服务后，在浏览器中输入 [http://localhost:9002/doc.html](http://localhost:9002/doc.html) 就可以访问到了。
+编程喵🐱实战项目中已经整合好了 Knife4j，在本地跑起来后，就可以查看所有 API 接口了。编程喵中的管理端（codingmore-admin）端口为 9002，启动服务后，在浏览器中输入 `http://localhost:9002/doc.html` 就可以访问到了。
 
 ![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongju/knife4j-3cfbf598-b94a-4081-aab3-06af1eef612c.png)
 
