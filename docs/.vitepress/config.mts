@@ -60,6 +60,11 @@ export default defineConfig({
           items: [{ link: "/redis/index.md" }, { link: "/api-examples" }],
         },
       ],
+      "/jsdelivr/": [
+        {
+          items: [{ link: "/jsdelivr/fancybox.css" }, { link: "/jsdelivr/fancybox.umd.js" }],
+        },
+      ],
     },
 
     socialLinks: [{ icon: "github", link: "https://github.com/PortfolioCare/coding" }],
