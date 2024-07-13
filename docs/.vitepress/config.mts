@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import mdItCustomAttrs from "markdown-it-custom-attrs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,12 +7,23 @@ export default defineConfig({
   base: "/coding",
   description: "coding",
   lastUpdated: true,
+  head: [
+    ["link", { rel: "stylesheet", href: "/coding/jsdelivr/fancybox.css" }],
+    ["script", { src: "/coding/jsdelivr/fancybox.umd.js" }],
+  ],
   markdown: {
     image: {
       // 默认禁用图片懒加载
       lazyLoading: true,
     },
+    config: (md) => {
+      // use more markdown-it plugins!
+      md.use(mdItCustomAttrs, "image", {
+        "data-fancybox": "gallery",
+      });
+    },
   },
+
   themeConfig: {
     search: {
       provider: "local",
