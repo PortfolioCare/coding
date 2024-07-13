@@ -51,6 +51,14 @@ export default defineConfig({
           items: [
             { text: "简介", link: "/java/index.md" },
             { text: "java虚拟机8-11双版本", link: "/java/1.md" },
+            {
+              text: "数组",
+              items: [
+                { text: "一维数组", link: "/java/array/array.md" },
+                { text: "二维数组", link: "/java/array/double-array.md" },
+                { text: "打印数组", link: "/java/array/print" },
+              ],
+            },
           ],
         },
       ],
