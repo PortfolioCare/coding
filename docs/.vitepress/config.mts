@@ -58,6 +58,7 @@ export default defineConfig({
             { text: "chiner", link: "/gongju/chiner.md" },
             { text: "choco", link: "/gongju/choco.md" },
             { text: "DBeaver", link: "/gongju/DBeaver.md" },
+            { text: "LLM底层技术原理入门指南", link: "/pdf/LLM底层技术原理入门指南.pdf" },
           ],
         },
       ],
